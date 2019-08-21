@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/shuailuo0334/test/_apis/build/status/1538625911.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/shuailuo0334/test/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/shuailuo0334/test/_apis/build/status/1538625911.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/shuailuo0334/test/_build/latest?definitionId=1&branchName=master)[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=accb91d5553eda55db6c6ff49613208ae9548b25&metric=alert_status)](https://sonarcloud.io/dashboard?id=accb91d5553eda55db6c6ff49613208ae9548b25) 
 
 # Contributing
 
