@@ -1,0 +1,14 @@
+$SONAR_TOKEN='accb91d5553eda55db6c6ff49613208ae9548b25'
+$SONAR_KEY='space-game-web-0821'
+$SONAR_ORGANIZATION='luoshuai'
+
+https://sonarcloud.io/api/qualityprofiles/search?projectKey=space-game-web-0821&organization=SonarCloudconnection1
+
+C:/Users/luoshuai/.dotnet/tools/dotnet-sonarscanner begin /k:"$SONAR_KEY" /d:sonar.host.url="https://sonarcloud.io"  /d:sonar.login="$SONAR_TOKEN"  /d:sonar.cs.opencover.reportsPaths="./Tailspin.SpaceGame.Web.Tests/TestResults/Coverage/coverage.opencover.xml" \/d:sonar.exclusions="**/wwwroot/lib/**/*" /o:"$SONAR_ORGANIZATION"
+
+C:/Users/luoshuai/.dotnet/tools/dotnet-sonarscanner begin /k:"space-game-web-0821" /d:sonar.host.url="https://sonarcloud.io"  /d:sonar.login="accb91d5553eda55db6c6ff49613208ae9548b25"  /d:sonar.cs.opencover.reportsPaths="./Tailspin.SpaceGame.Web.Tests/TestResults/Coverage/coverage.opencover.xml" \/d:sonar.exclusions="**/wwwroot/lib/**/*" /o:"Space Game - web - Tests"
+C:/Users/luoshuai/.dotnet/tools/dotnet-sonarscanner end /d:sonar.login="$SONAR_TOKEN"
+
+MSYS2_ARG_CONV_EXCL="*" C:/Users/luoshuai/.dotnet/tools/dotnet-sonarscanner begin/k:"$SONAR_KEY" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="$SONAR_TOKEN"  /d:sonar.cs.opencover.reportsPaths="./Tailspin.SpaceGame.Web.Tests/TestResults/Coverage/coverage.opencover.xml" \ /d:sonar.exclusions="**/wwwroot/lib/**/*" /o:"$SONAR_ORGANIZATION"
+
+dotnet test --no-build  --configuration Release  /p:CollectCoverage=true  /p:CoverletOutputFormat="cobertura%2copencover"  /p:CoverletOutput=./TestResults/Coverage/
